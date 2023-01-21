@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Noto+Serif:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-color: #141414;
+    box-shadow: 0 0 10px #161616;
+}
+
+.logo{
+    color: #fff;
+    padding: 15px;
+}
+
+.login-button{
+    display: none;
+}
+
+.nav-bar ul{
+    list-style: none;
+}
+
+.nav-bar ul{
+    position: fixed;
+    top: 60px;
+    left: -100%;
+    background-color: #141414;
+    height: 40vh;
+    width: 60%;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.nav-bar ul.open{
+    left: 0;
+}
+
+.nav-bar ul li{
+    padding: 20px;
+}
+
+.nav-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font: normal 1.2rem Arial;
+}
+
+button{
+    border: none;
+    margin-left: 12px;
+    background-color: transparent;
+
+    position: absolute;
+    top: 2.5%;
+    left: 85%;
+}
+
+main{
+    width: 95vw;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #16161627;
+}
+
+main h1{
+    font-size: 2rem;
+    font-family: 'Noto Serif', serif;
+}
+
+main img{
+    margin-left: 25px;
+    width: 80%;
+    height: 200px;
+}
+
+main p{
+    margin-top: 40px;
+    margin: 10px;
+    text-indent: 2rem;
+    text-align: justify;
+    font-size: 1.4rem;
+    font-family: 'Noto Serif', serif;
+
+}
+
+aside{
+    padding: 10px;
+    text-align: right;
+    background-color: #b6afaf;
+}
+
