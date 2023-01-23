@@ -9,6 +9,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+body{
+    background-color: #b6afaf7c;
+}
+
 header{
     background-color: #141414;
     box-shadow: 0 0 10px #161616;
@@ -64,10 +68,11 @@ button{
 
 main{
     width: 95vw;
-    margin: auto;
-    margin-top: 10px;
+    padding: 10px;
+    margin: 10px 10px;
     border-radius: 5px;
     box-shadow: 3px 3px 5px #16161627;
+    background-color: #fff;
 }
 
 main h1{
@@ -95,5 +100,21 @@ aside{
     padding: 10px;
     text-align: right;
     background-color: #b6afaf;
+}
+
+footer{
+    color: #fff;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    display: block;
+}
+
+footer a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    padding-top: 6px;
 }
 
